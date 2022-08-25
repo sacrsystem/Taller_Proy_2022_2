@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BizConsult - Consulting HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">USMP</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <div class="nav-item dropdown">
+                            <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            >Grupos</a
+                            >
+                            <div class="dropdown-menu m-0">
+                                <a href="grupo_ali_baba.html" class="dropdown-item">Grupo Ali Baba</a>
+                                <a href="grupo_amazon.html" class="dropdown-item">Grupo Amazon</a>
+                                <a href="grupo_google.html" class="dropdown-item">Grupo Google</a>
+                                <a href="grupo_huawei.html" class="dropdown-item">Grupo Huawei</a>
+                                <a href="grupo_ibm.html" class="dropdown-item">Grupo IBM</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4 ms-lg-5"
+                    >Contáctanos</a
+                    >
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary page-header">
+                <div class="container text-center">
+                    <h1 class="text-white animated zoomIn mb-3">Grupo Huawei</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Tema</li>
+                        </ol>
+                    </nav>
+                    <div>
+                        <img src="./img/SC_AWS/logo-aws.png" class="img-cabecera-grupo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Features Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Tema</div>
+                        <h2 class="mb-4">Desctripción del Tema principal del producto</h2>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-5">
+                            <div class="contenedor">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Problemática</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Solución</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Resultado</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                        Los Alumnos del Campus Fia de la Universidad San Martin 
+                                        de Porres, han tenido ciertos problemas con la información de la misma universidad, 
+                                        como son los horarios, matriculas, capacitaciones, conferencias, webinar, 
+                                        cancelación de clases, áreas donde se está haciendo la limpieza, si 
+                                        está libre el estacionamiento, registro de asistencias, Ubicación GPS,
+                                            lugares más visitados y donde pueda haber una mejora de implementación.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                        Crear un sitio web Responsive, que pueda tener todas las áreas del Campus
+                                            Fia USMP, y tenga el acceso de poder incluir un chatbot el cual nos permita informar a todos
+                                             los alumnos sobre que acontecimientos se realizarán, y que también se pueda registrar todas
+                                              las asistencias de cada alumno, el chatbot podrá direccionar al alumno al área con la que 
+                                              se quiera comunicar y también se podrá crear un chat en línea donde todos los alumnos puedan 
+                                              comunicarse.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                        Alumnos más informados, eventos con aforos satisfactorios, mejora en la 
+                                            implementación de las áreas más visitadas por los alumnos, buena información de matrículas y
+                                             horarios, registro de asistencias satisfactorio.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">..&%%fg.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12 wow fadeInUp text-center" data-wow-delay="0.1s">
+                        <h2 class="mb-1">Arquitectura</h2>
+                        <h5 class="mb-4">Chat Campus Fia SC AWS</h5>
+                        <p>Para desarrollar nuestro sitio Web elaboramos una arquitectura con los siguientes servicios que ofrece AWS.</p>
+                    </div>
+                    <div class="col-lg-12 wow zoomIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/SC_AWS/av5.0.0.JPG">
+                    </div>
+                    <div class="col-lg-12 wow fadeInUp text-center card pt-3" data-wow-delay="0.1s">
+                        <h2 class="mb-1">Arquitectura Versión 4.0.0</h2>
+                        <h5 class="mb-4">Chat Campus Fia SC AWS</h5>
+                        <p style="text-align: justify;
+                        text-justify: inter-word;">Implementaremos una web Responsive donde todos los alumnos puedan atraves de un chat comunicarse en diferentes áreas y así estar enterados de acontecimientos, eventos que se den en la universidad, también implementar un GPS para cada alumno y así poder registrarlos y ponerles asistencia utilizando un sensor que sea reconocido por un celular. Comenzamos nuestra arquitectura con el usuario que ingresa al CHAT CAMPUS mediante la web en su ordenador, este chat recibe la información mediante el API Gateway, componente cuya principal función es la de habilitar la conexión entre los servicios y los clientes, trabajando en su back-end mediante Amazon S3, GitHub y Visual Studio Code. Luego seguimos con Amazon Lex, que es un chat bot donde los usuarios (estudiantes) podrán realizar sus preguntas para acceder a los diferentes pabellones, ubicación (GPS) e información específica, el agente virtual de texto les va a ofrecer una experiencia instantánea para los usuarios ya que estos necesitan respuestas rápidas y precisas a cualquier hora del día y puedan solucionar problemas o encontrar la información que estaban buscando con urgencia, y que también estará enlazado con el API Gateway que enviara transformara la información para que se comprenda y con AWS Lambda que se encargar de hacerle llegar la información que el GPS emita acompañado de una integración que se realiza de manera sencilla por ser las 2 plataformas de AWS mediante unas llaves o ‘keys’ que se obtienen en la configuración. Y con AWS Lambda podremos ejecutar los códigos provenientes de Amazon Lex y ser administrados automáticamente, ejecutando la lógica front-end en el lado del cliente y los servicios de seguridad, la BD y la lógica de back-end, esto con la idea de ahorrarnos tiempo y que nos permita desarrollar el chatbot. También se implementará Amazon Location Services que enviará la ubicación del usuario, integrándose mediante AWS Lambda con la misma modalidad de llaves o ‘keys’, para la ubicación de todos los usuarios que se encuentren en Fia, a través de un sensor GPS que está incluido en cada Smartphone. (IOT)</p>
+                    </div>
+                    <div class="col-lg-12 wow fadeInUp text-center" data-wow-delay="0.1s">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6">
+                                <a style="display: inline-block; padding: 6px; width: 150px; font-weight: 300; border: 1px solid #BD1714; color: #FBFCFC; font-size: 16px; background:#BD1714   ; text-align: center; text-decoration: none; border-radius: 16px; margin-top: 7%;
+                                    " href="javascript:ventanaSecundaria('https://miro.com/app/board/o9J_l09mz1w=/')" class="boton">Ver Arquitectura </a>
+                            </div>
+                            <div class="col-lg-6">
+                                    <a style="display: inline-block; padding: 6px; width: 128px; font-weight: 300; border: 1px solid #BD1714; color: #FBFCFC; font-size: 16px; background:#BD1714   ; text-align: center; text-decoration: none; border-radius: 16px; margin-top: 7%;
+                                    " href="http://chatcampus.s3-website-sa-east-1.amazonaws.com" class="boton">Ver Web </a> 
+                            </div>  
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3"> Herramientas </div>
+                        <h2 class="mb-5">Herramientas a Usar</h2>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row g-5">
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="service-item rounded h-100">
+                                    <div class="text-center mb-3 p-3">
+                                        <div class="btn-square-a bg-primary rounded-circle mb-3" style="display:inline-grid;">
+                                            <img src="./img/vs-code-logo.png" style="width: 53px;">
+                                        </div>
+                                        <h6 class="mb-3">VS Code</h6>
+                                        <span class="mb-3">Visual Studio Code es un editor de código fuente, donde se ejecutara el codigo de implementación.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                                <div class="service-item rounded h-100">
+                                    <div class="text-center mb-3 p-3">
+                                        <div class="btn-square-a bg-primary rounded-circle mb-3" style="display:inline-grid;">
+                                            <img src="./img/azure-devops-logo.png" style="width: 62px;">
+                                        </div>
+                                        <h6 class="mb-0">GitHub</h6>
+                                        <span>GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="service-item rounded h-100">
+                                    <div class="text-center mb-3 p-3">
+                                        <div class="btn-square-a bg-primary rounded-circle mb-3" style="display:inline-grid;">
+                                            <img src="./img/github-logo.png" style="width: 62px;">
+                                        </div>
+                                        <h6 class="mb-0">Amazon</h6>
+                                        <span>Amazon Web Services es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-6 bg-light" style="position: relative;overflow: hidden;">
+            <div class="sesgoarriba"></div>
+            <div class="row g-0 position-relative my-6">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+                    <h2 class="mb-5">Servicios de Amazon</h2>
+                </div>
+                <div class="col-md-12 mb-md-0 p-md-4 text-center">
+                    <img src="./img/SC_AWS/services.JPG" class="w-80" alt="...">
+                </div>
+                
+            </div>
+            <div class="sesgoabajo-unico"></div>
+        </div>
+        <!-- Team Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Nuestro Equipo</div>
+                    <h2 class="mb-5">Conoce a Nuestro equipo</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <h5>Cochachi Torres Ricardo Jesús</h5>
+                            <p class="mb-4">Lider</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/SC_AWS/user-img.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item">
+                            <h5>Dennys Elton Ortiz Valdez</h5>
+                            <p class="mb-4">Programador</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/SC_AWS/user-img.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item">
+                            <h5>Jonathan Berroa Atayupanqui</h5>
+                            <p class="mb-4">Programador</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/SC_AWS/user-img.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item">
+                            <h5>Jair Felix Alarcon Loayza</h5>
+                            <p class="mb-4">Programador</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/SC_AWS/user-img.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <h5>Cesar Ricardo Aguilar Cortez</h5>
+                            <p class="mb-4">Programador</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/SC_AWS/user-img.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item">
+                            <h5>Cristian Antony Chancayauri Gonzales</h5>
+                            <p class="mb-4">Programador</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/SC_AWS/user-img.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item">
+                            <h5>Fiorella Luz Maria Diaz Meza</h5>
+                            <p class="mb-4">QA.</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/SC_AWS/user-img.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-6" style="background-color: #BD1714;">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3 text-white">Contáctanos</div>
+                    <h2 class="mb-5 text-white">Déjanos un corrreo con tus datos personales</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
+                        <p class="text-center mb-4 text-white">Te responderemos en las próximas 24 horas.</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Correo</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <label for="subject">Asunto</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                        <label for="message">Mensaje</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn bg-dark text-white w-100 py-3" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        <footer style="border-top: 3px solid #BD1714;" class="">
+            <div class="footer">
+                <div class="row container-fluid">
+                    <div class="col-4" style="padding-left: 100px;">
+                        <div class="row" style="padding-top: 20px;">
+                            <img class="container" src="img/logo_fac_fia.svg" style="width: 100%;">
+                        </div>
+                        <div class="row p-5">
+                            <div class="col text-center">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <img src="./img/vs-code-logo.png" style="width: 21px;">
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <img src="./img/azure-devops-logo.png" style="width: 25px;">
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <img src="./img/github-logo.png" style="width: 22px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 text-start" style="padding-top: 20px;">
+                        <div class="row text-center">
+                            <div class="col-4 py-3 px-5"><span><strong>Sede Lima:</strong><br/> Jr. Las Calandrias N° 151 – 291 Santa Anita, Lima - Perú.<strong>Teléfono:</strong><br/> (511) 317-2130.</span></div>
+                            <div class="col-4 py-3 px-5"><span><strong>Sede Chiclayo:</strong><br/>Calle Nazareth 621 con Esq. Av. Balta - Chiclayo. <strong>Teléfonos:</strong><br/> (074) 222206 / (074) 222231 / (074) 222236.</span></div>
+                            <div class="col-4 py-3 px-5"><span><strong>Sede Arequipa:</strong><br/>Calle La Merced N° 209 - Arequipa.<br/> <strong>Teléfonos:</strong><br/> (054) 789574 / (054) 789783 / (054) 286843.</span></div>
+                        </div>  
+                    </div>
+                    <div class="col">
+                        <div class="row text-center">
+                            <h6 class="container">Copyright ©️ 2022 Taller de Proyectos - FIA, USMP</h6>
+                            <h6 class="container">Todos los derechos reservados</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script> 
+        function ventanaSecundaria (URL){ 
+           window.open(URL,"ventana1","width=120,height=300,scrollbars=NO") 
+        } 
+    </script>
+</body>
+
+</html>
