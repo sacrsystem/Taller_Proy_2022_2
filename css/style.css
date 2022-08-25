@@ -6,6 +6,45 @@
 }
 
 
+.img-cabecera-grupo{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: auto;
+    border: 3px solid #fff;
+}
+
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color:  #BD1714 transparent transparent transparent;
+}
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #BD1714 transparent;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -49,7 +88,10 @@
 .btn.btn-outline-primary:hover {
     color: #FFFFFF;
 }
-
+.btn-square-a {
+    width: 80px;
+    height: 80px;
+}
 .btn-square {
     width: 38px;
     height: 38px;
@@ -66,6 +108,7 @@
 }
 
 .btn-square,
+.btn-square-a,
 .btn-sm-square,
 .btn-lg-square {
     padding: 0;
@@ -212,13 +255,19 @@
     }
 }
 
+.fondo-oscuro{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000059;
+}
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
     padding: 12rem 0 9rem 0;
-    background: url(../img/usmp_fia.jpg) center bottom no-repeat;
+    background: url(../img/usmp_fia.jpg) center bottom no-repeat fixed;
     background-size: cover;
+    height: 100vh;
 }
 
 .page-header {
